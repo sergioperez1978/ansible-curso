@@ -1,4 +1,4 @@
-os---
+hosts---
 - name: Playbook para instalar la pila LAMP
   hosts: centos
   become: yes
