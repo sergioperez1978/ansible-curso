@@ -1,6 +1,6 @@
-hosts---
+---
 - name: Playbook para instalar la pila LAMP
-  hosts: centos
+  hosts: debian1
   become: yes
 
   tasks:
