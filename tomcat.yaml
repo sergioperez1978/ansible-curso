@@ -8,7 +8,7 @@
 # 7- Arrancar el servicio
 
 - name: Intalar Tomcat 10
-  hosts: servidores_de_aplicaciones
+  hosts: all
   vars:
     url_descarga: https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.7/bin/apache-tomcat-10.1.7.tar.gz
     
